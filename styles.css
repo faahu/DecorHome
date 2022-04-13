@@ -1,0 +1,290 @@
+body {
+    background-color: rgb(177, 177, 177);
+    /* font-family: 'Fraunces', serif; */
+    /* font-family: 'Shizuru', cursive; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* FUENTE DE JOEL
+
+font-family: 'Fraunces', serif;
+font-family: 'Shizuru', cursive; 
+
+CENTER IMAGE
+
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+ 
+  */
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+}
+
+.menu {
+    padding: 60px;
+    text-align: center;
+    background: #05050598;
+    /* color: rgb(224, 8, 8); */
+    font-size: 30px;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+
+
+/*-------------------------------- EFFECT PORTFOLIO ------------------------- */
+
+
+.projects {
+
+    /* font-family: 'Fraunces', serif; */
+    /* font-family: 'Shizuru', cursive; */
+    /* font-family: 'Open Sans', sans-serif; */
+
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.cuadrado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imagis {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+
+
+
+
+
+    /* width: 100%; */
+    /* vertical-align: top;
+    border-radius: 3px; */
+
+    /* width: 90%; */
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+
+    /* class thumb */
+    /* 
+    width: 100%;
+    margin-bottom: 10px;
+    border-color: #ff000d;
+    border-style: solid;
+} */
+}
+
+.container .imagenes .imagis .cuadrado .saiz {
+    /* width: 23%; */
+    margin-bottom: 40px;
+}
+
+
+
+.container .imagenes .imagis .cuadrado .saiz .thumb {
+
+    /* width: 100%; */
+    /* margin-bottom: 10px; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-color: #ff8801;
+    border-style: solid;
+}
+
+.imagen {
+
+    Width: 100%;
+    Height: 100%;
+    Object-fit: cover;
+}
+
+
+/* TESTIMONIALS  */
+
+
+
+
+.contenedor-testimonio {
+
+    /* padding: 500px;
+    padding-top: 100px; */
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+
+.encabezado {
+    font-size: 60px;
+    text-align: center;
+}
+
+
+
+.font {
+    font-family: 'Open Sans', sans-serif;
+    /* font-size: 25px; */
+}
+
+
+
+
+.testimonio {
+    display: flex;
+    flex-direction: column;
+    background-color: #ff8801;
+    height: 200px;
+    width: 300px;
+
+}
+
+.monials {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 33px;
+    text-align: center;
+}
+
+
+
+
+/*                                       FORMULARIO                           */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+.seccion {
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.containerrr {
+    width: 90;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #00000010;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+.form-group {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgb(128, 128, 128, 0.199);
+    margin-top: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    color: rgb(27, 166, 247);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: .3s ease background-color;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(214, 226, 236);
+}
+
+#status {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+#status.success {
+    background-color: rgb(211, 250, 153);
+    animation: status 4s ease forwards;
+}
+
+#status.error {
+    background-color: rgb(250, 129, 92);
+    color: white;
+    animation: status 4s ease forwards;
+}
+
+@keyframes status {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    100% {
+        opacity: 0;
+        pointer-events: none;
+
+    }
+}
