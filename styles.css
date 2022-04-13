@@ -30,12 +30,14 @@ CENTER IMAGE
 }
 
 .menu {
+
     padding: 60px;
     text-align: center;
     background: #075bc9;
+    /* background-size: contain; */
     /* color: rgb(224, 8, 8); */
     font-size: 30px;
-    color: inherit;
+    color: rgb(255, 241, 219);
     text-decoration: inherit;
 }
 
@@ -56,8 +58,9 @@ a {
     /* font-family: 'Shizuru', cursive; */
     /* font-family: 'Open Sans', sans-serif; */
 
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
+    color: #f8fbff;
 
 }
 
@@ -147,8 +150,9 @@ a {
 
 
 .encabezado {
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
+    color: #f8fbff;
 }
 
 
@@ -165,7 +169,7 @@ a {
 .testimonio {
     display: flex;
     flex-direction: column;
-    background-color: #995201;
+    background-color: #a55a04;
     height: 200px;
     width: 300px;
 
