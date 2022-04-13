@@ -1,1 +1,1 @@
-# DecorHome https://faahu.github.io/DecorHome/
+# Decor Home Preview https://faahu.github.io/DecorHome/
