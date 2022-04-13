@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(177, 177, 177);
+    background-color: rgb(250, 141, 17);
     /* font-family: 'Fraunces', serif; */
     /* font-family: 'Shizuru', cursive; */
     font-family: 'Open Sans', sans-serif;
@@ -32,7 +32,7 @@ CENTER IMAGE
 .menu {
     padding: 60px;
     text-align: center;
-    background: #05050598;
+    background: #075bc9;
     /* color: rgb(224, 8, 8); */
     font-size: 30px;
     color: inherit;
@@ -141,6 +141,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    color: rgb(236, 237, 238);
 }
 
 
@@ -155,6 +156,7 @@ a {
 .font {
     font-family: 'Open Sans', sans-serif;
     /* font-size: 25px; */
+    text-align: center;
 }
 
 
@@ -163,7 +165,7 @@ a {
 .testimonio {
     display: flex;
     flex-direction: column;
-    background-color: #ff8801;
+    background-color: #995201;
     height: 200px;
     width: 300px;
 
