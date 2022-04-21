@@ -8,137 +8,183 @@
     <title>Decor Home Improvement</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <!-- <script src="tuki.js"></script> -->
-
     <link
         href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,500&family=Open+Sans:wght@300&family=Shizuru&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c21ed3aa07.js" crossorigin="anonymous"></script>
 </head>
 
 
+<!-- MENU  -->
 
 <body>
     <header>
         <div class="contenedor">
+            <div class="logo">
+                <img src="img/Logo.png">
+            </div>
             <nav class="menu">
-                <a href="#">Home</a>
-                <a href="#projects">Portfolio</a>
-                <a href="#test">Testimonials</a>
-                <!-- <a href="#">Rates</a> -->
-                <a href="#contact">Contact us</a>
+                <div class="elementos">
+                    <a href="#">Home</a>
+                    <a href="#projects1">Portfolio</a>
+                    <a href="#test">Testimonials</a>
+                    <!-- <a href="#">Rates</a> -->
+                    <a href="#contact">Contact us</a>
+                </div>
                 <!-- <a class="github" href="http://www.github.com/faahu" target="_blank"><i class="fa fa-github"></i></a> -->
             </nav>
     </header>
 
-    <!-- <div class="contenedor-texto">
+    <!--RESPONSIVE-->
+    <div class="navbar">
+        <!-- Navbar logo -->
+        <div class="nav-header">
+            <div class="nav-logo"></div>
+        </div>
+
+        <!-- responsive navbar toggle button -->
+        <input type="checkbox" id="nav-check">
+        <div class="nav-btn">
+            <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+
+        <!-- Navbar items -->
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="#projects">Portfolio</a>
+            <a href="#test">Testimonials</a>
+            <a href="#contact">Contact us</a>
+        </div>
+
+    </div>
+    <!--HOME CON SLIDER-->
+    <section class="section-home" id="home">
+
+        <div class="slider">
+            <ul>
+                <li> <img src="img/imagen1.jpg"></li>
+                <li> <img src="img/imagen2.jpg"></li>
+                <li> <img src="img/imagen3.jpg"></li>
+                <li> <img src="img/imagen4.jpg"></li>
+            </ul>
+        </div>
+    </section>
+    <!-- 
+    <br>
+    <br> -->
+    <section id="portfolio">
+
+        <h3 class="projects h3-responsive" id="projects">Previous Work</h3>
+
+        <!-- <div class="contenedor-texto">
                 <div class="texto">
                     <h1 class="nombre">Facundo Purdie</h1>
                     <h2 class="profesion">Web Developer</h2>
                 </div>
             </div> -->
 
-    <!-- Portfolio ZONE  CSS STYLE TEST -->
-    <br>
-    <br>
+        <!-- Portfolio ZONE  CSS STYLE TEST -->
 
-    <style>
-        body {
-            background-image: url('const.png');
-        }
-    </style>
 
-    <section class="Portfolio">
-        <h3></h3>
-        <div class="contenedor">
-            <h3 class="projects" id="projects">Previous Work</h3>
-            <div class="contenedor-projects">
-
-            </div>
-        </div>
-    </section>
-    <br>
-    <br>
-    <br>
-
-    <!-- IMAGEN CENTRO -->
-    <div class="container">
-        <!-- <h3>asheeeeei</h3> -->
-        <div class="imagenes">
-            <ul id="imagis" class="imagis">
-                <!-- <li> -->
-                <div class="cuadrado">
-                    <div class="saiz">
-                        <div class="thumb">
-                            <img src=" ./img/111.png" class="imagen">
-                        </div>
-                    </div>
-                    <div class="saiz">
-                        <div class="thumb">
-                            <img src=" ./img/333.jpg" class="imagen">
-                        </div>
-                    </div>
-                    <div class="saiz">
-                        <div class="thumb">
-                            <img src=" ./img/222.jpg" class="imagen">
-                        </div>
-                    </div>
-                    <div class="saiz">
-                        <div class="thumb">
-                            <img src=" ./img/444.jpg" class="imagen">
-                        </div>
-                    </div>
-                    <div class="saiz">
-                        <div class="thumb">
-                            <img src=" ./img/111.png" class="imagen">
-                        </div>
-                    </div>
-                    <div class="saiz">
-                        <div class="thumb">
-                            <img src=" ./img/333.jpg" class="imagen">
-                        </div>
-                    </div>
-
-                    <div class="saiz">
-                        <div class="thumb">
-                            <img src=" ./img/222.jpg" class="imagen">
-                        </div>
-                    </div>
-                    <div class="saiz">
-                        <div class="thumb">
-                            <img src=" ./img/444.jpg" class="imagen">
-                        </div>
-                    </div>
-
+        <section class="Portfolio" id="projects">
+            <div class="contenedor">
+                <h3 class="projects" id="projects1">Previous Work</h3>
+                <div class="contenedor-projects">
                 </div>
-        </div>
-        <!-- <img src="./img/333.jpg">
+            </div>
+
+
+            <!-- IMAGEN CENTRO -->
+            <div class="container">
+                <!-- <h3>asheeeeei</h3> -->
+                <div class="imagenes">
+                    <ul id="imagis" class="imagis">
+                        <!-- <li> -->
+                        <div class="cuadrado">
+                            <div class="saiz">
+                                <div class="thumb">
+                                    <img src=" ./img/111.png" class="imagen">
+                                </div>
+                            </div>
+                            <div class="saiz">
+                                <div class="thumb">
+                                    <img src=" ./img/333.jpg" class="imagen">
+                                </div>
+                            </div>
+                            <div class="saiz">
+                                <div class="thumb">
+                                    <img src=" ./img/222.jpg" class="imagen">
+                                </div>
+                            </div>
+                            <div class="saiz">
+                                <div class="thumb">
+                                    <img src=" ./img/444.jpg" class="imagen">
+                                </div>
+                            </div>
+                            <div class="saiz">
+                                <div class="thumb">
+                                    <img src=" ./img/111.png" class="imagen">
+                                </div>
+                            </div>
+                            <div class="saiz">
+                                <div class="thumb">
+                                    <img src=" ./img/333.jpg" class="imagen">
+                                </div>
+                            </div>
+
+                            <div class="saiz">
+                                <div class="thumb">
+                                    <img src=" ./img/222.jpg" class="imagen">
+                                </div>
+                            </div>
+                            <div class="saiz">
+                                <div class="thumb">
+                                    <img src=" ./img/444.jpg" class="imagen">
+                                </div>
+                            </div>
+
+                        </div>
+                </div>
+
+                <!-- <img src="./img/333.jpg">
                 <img src="./img/333.jpg"> -->
-        <!-- <img src="./img/4.jpg"> -->
+                <!-- <img src="./img/4.jpg"> -->
 
 
-        <!-- </li> -->
-        </ul>
-    </div>
-    </div>
+                <!-- </li> -->
+                </ul>
+            </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
 
 
-    <!-- EFECTO CSS zzz -->
+        <!-- EFECTO CSS zzz -->
 
 
-    <!-- <div id="shadow" class="shadow"></div> -->
+        <!-- <div id="shadow" class="shadow"></div> -->
 
-    <!-- <div id="nav-arrows" class="nav-arrows">
+        <!-- <div id="nav-arrows" class="nav-arrows">
         <a href="#">Next</a>
         <a href="#">Previous</a>
     </div> -->
 
-    <!-- </div>
+        <!-- </div>
     </div> -->
 
 
 
-    <!-- Services ZONE -->
+        <!-- Services ZONE -->
 
-    <!-- <section class="services">
+        <!-- <section class="services">
                 <h3></h3>
                 <div class="contenedor">
                     <h3 class="projects">Services</h3>
@@ -149,32 +195,37 @@
             </section> -->
 
 
-    <!-- Testimonials ZONE -->
-    <br>
-    <section class="testimonials" id="test">
-        <h3 class="encabezado">Testimonials</h3>
+        <!-- Testimonials ZONE -->
         <br>
-        <br>
-        <div class="contenedor-testimonio">
-            <div class="testimonio">
-                <h4 class="monials">Miley Brads</h4>
-
-                <p class="font">"Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Odit minima vitae eaque exercitationem? Neque vel nisi,
-                    suscipit rerum corrupti consequatur excepturi repellendus!
-                    Ipsam totam accusamus quaerat accusantium rem qui quas."</p>
+        <section class="testimonials" id="test">
+            <div>
+                <h3 class="encabezado">Testimonials</h3>
+                <div class="encast"></div>
             </div>
             <br>
+            <br>
+            <div class="contenedor-testimonio">
+                <div class="testimonio shadow">
+                    <h4 class="monials">MILEY BRADS</h4>
 
-            <div class="testimonio">
-                <h4 class="monials">Peter chief</h4>
-                <p class="font">"Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Odit minima vitae eaque exercitationem? Neque vel nisi,
-                    suscipit rerum corrupti consequatur excepturi repellendus!
-                    Ipsam totam accusamus quaerat accusantium rem qui quas."</p>
+                    <p class="font">"Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Odit minima vitae eaque exercitationem? Neque vel nisi,
+                        suscipit rerum corrupti consequatur excepturi repellendus!
+                        Ipsam totam accusamus quaerat accusantium rem qui quas."</p>
+                </div>
+                <br>
+
+                <div class="testimonio shadow">
+                    <h4 class="monials">PETER CHIEF</h4>
+                    <p class="font">"Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Odit minima vitae eaque exercitationem? Neque vel nisi,
+                        suscipit rerum corrupti consequatur excepturi repellendus!
+                        Ipsam totam accusamus quaerat accusantium rem qui quas."</p>
+                </div>
             </div>
-        </div>
+        </section>
     </section>
+
 
 
     <!-- CONTAC ZONE, gmail, FB LOGO
@@ -194,24 +245,50 @@
 
     </div>
 -->
-    <!-- FORMULARIO -->
+    <!-- FORMULARIO     <i class="fa-solid fa-phone"></i>   --  <a href="mailto:fgrivas@yahoo.com">
+-->
 
-    <section class="seccion">
+    <section class="formulario">
         <h3 class="contact" id="contact">¡Contact Us! </h3>
-
-        <div>
+        <div class="datos">
             <!-- <a href="#"></a> -->
-            571 282 9118
-            <a href="#">FB</a>
-            <a class="Gmail" href="mailto:fgrivas@yahoo.com" target="_blank"><i class="fa fa-github">Gmail</i></a>
-            <!-- <a href="mailto:fgrivas@yahoo.com">Send Quote</a> -->
 
+            <div class="contenedor1">
+                <!-- <div class="numero">571 282 9118</div> -->
+                <div class="menu-datos">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <!-- <span>Gmail</span> -->
+                                <span>
+                                    <i class="fas fa-envelope-open-text" aria-hidden="true"></i> </span>
+                                <span>¡Call me!</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-datos">
+                <ul>
+                    <li>
+                        <a href="mailto:fgrivas@yahoo.com">
+                            <!-- <span>Gmail</span> -->
+                            <span>
+                                <i class="fas fa-envelope-open-text" aria-hidden="true"></i>
+                            </span>
+                            <span>¡Email!</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- <a href="mailto:fgrivas@yahoo.com">Send Quote</a> -->
         </div>
         <div class="containerrr">
             <form action="https://formspree.io/f/mjvlavng" method="POST" id="my-form" target="_blank">
 
                 <div class="form-group">
-                    <label for="firstName"> First Name</label>
+                    <label for="firstName">First Name</label>
                     <input type="text" id="firstName" name="firstName">
                 </div>
 
@@ -230,12 +307,12 @@
                     <textarea name="message" id="message" cols="30" rows="10"></textarea>
                 </div>
 
-                <button type="submit">Submit</button>
+                <button class="button" type="submit">Submit</button>
+                <button id="boton" type="submit">Submit</button>
             </form>
         </div>
         <div id="status"></div>
     </section>
-
     <script src="tuki.js"></script>
 </body>
 
