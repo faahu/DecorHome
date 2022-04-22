@@ -36,6 +36,21 @@ body {
    
     */
 
+.flecha {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    right: 0;
+    bottom: 0;
+}
+
+.flecha a i {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 70px;
+}
+
 .h3-responsive {
     display: none;
 }
@@ -304,7 +319,7 @@ a {
     border-bottom: 7px solid black;
     width: 100%;
     margin: auto;
-    height: 900px;
+    height: 320px;
     overflow: hidden;
 }
 
@@ -312,7 +327,7 @@ a {
     padding: 0;
     display: flex;
     width: 400%;
-    animation: slider 40s infinite alternate;
+    animation: slider 12s infinite alternate;
     animation-timing-function: linear;
 }
 
@@ -322,7 +337,9 @@ a {
 }
 
 .slider li img {
+    height: 500px;
     width: 100%;
+    object-fit: cover;
 }
 
 @keyframes slider {
@@ -486,10 +503,12 @@ a {
 }
 
 .contenedor-testimonio {
+
     /* padding: 500px;
       padding-top: 100px; */
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 2rem;
     color: rgb(33, 124, 160);
     width: 100%;
@@ -536,6 +555,7 @@ a {
     height: 300px;
     width: 500px;
     border-color: rgb(119, 119, 119);
+    overflow: scroll;
     /* box-shadow: 10px 5px 5px red; */
 }
 
