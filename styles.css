@@ -327,8 +327,10 @@ a {
     padding: 0;
     display: flex;
     width: 400%;
-    animation: slider 12s infinite alternate;
+    animation: slider 18s infinite alternate;
     animation-timing-function: linear;
+    /* animation-duration: 7s; */
+
 }
 
 .slider li {
@@ -347,15 +349,15 @@ a {
         margin-left: 0;
     }
 
-    20% {
-        margin-left: 0;
+    15% {
+        margin-left: 0%;
     }
 
-    40% {
+    30% {
         margin-left: -100%;
     }
 
-    50% {
+    45% {
         margin-left: -100%;
     }
 
@@ -363,11 +365,11 @@ a {
         margin-left: -200%;
     }
 
-    70% {
+    75% {
         margin-left: -200%;
     }
 
-    85% {
+    90% {
         margin-left: -300%;
     }
 
